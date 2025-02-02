@@ -67,12 +67,14 @@ field **\*** - means that the field is mandatory
 - get the superheroes list sorted by humility score
 **Request body:** empty
 **Response body:** ***ResponseError*** / ***ResponseGetListOfHeroes***
+**Respose statuses:** ***200*** / ***500***
 
 
 ##### POST /superheroes
 - insert a superhero in the list
 **Request body:** ***RequestAddSuperhero***
-**Response body:** 
+**Response body:** empty
+**Respose statuses:** ***201*** / ***500*** / ***400***
 
 ---
 **Collaborate with a teammate**
